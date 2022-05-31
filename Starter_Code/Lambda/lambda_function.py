@@ -147,7 +147,7 @@ def investment_recommendation(risk_level):
         recommendation_result = "100% bonds (AGG), 0% equities (SPY)"
     elif risk_level.lower() == "low":
         recommendation_result = "60% bonds (AGG), 40% equities (SPY)"
-    elif risk_level.lower() == "medium":
+    elif risk_level.lower() = "medium":
         recommendation_result == "40% bonds (AGG), 60% equities (SPY)"
     elif risk_level.lower() == "high":
         recommendation_result = "20% bonds (AGG), 80% equities (SPY)"
